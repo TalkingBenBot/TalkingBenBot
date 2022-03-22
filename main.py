@@ -5,7 +5,7 @@ import random
 import os 
 
 
-bot = hikari.GatewayBot(token='OTU1NDEwMTQxNDg5MDI5MTQw.YjhRCA.oc5JjsjT8VlNVtQwqWvDRt8E1Yw')
+bot = hikari.GatewayBot(token='UR_TOKEN_HERE')
 
 
 @bot.listen()
@@ -26,5 +26,3 @@ async def ben(event: hikari.GuildMessageCreateEvent) -> None:
         await event.message.respond(response)
 
 bot.run()
-
-"""COPYRIGHT"""
